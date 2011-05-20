@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cgengine", "CGEngine\cgengine.vcxproj", "{49D208DB-2BA8-46DA-8915-A36939D01DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3E2C5AD9-FCEE-439A-BEB7-1CFBBE3B14AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OnTheFly", "OnTheFly\OnTheFly.vcxproj", "{6187FAF2-E849-49AE-BF9F-E3CADDE2611B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{459019C0-0432-4253-B1AD-EDA2AFCDAD21}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AssetManager", "AssetManager\AssetManager.vcxproj", "{0E5C2640-8DDD-48BC-859E-E5363A365CB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "Renderer\Renderer.vcxproj", "{895B3912-0119-4825-8165-2FF973274A80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "System", "System\System.vcxproj", "{8759C1DD-C02D-4315-A18A-543EFE2A8425}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Util", "Util\Util.vcxproj", "{3FC68FB4-326D-499C-96DF-9F731764E251}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "Math\Math.vcxproj", "{2715F8AA-C73A-4962-BC68-1CAD1DAF9FB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49D208DB-2BA8-46DA-8915-A36939D01DC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{49D208DB-2BA8-46DA-8915-A36939D01DC5}.Debug|Win32.Build.0 = Debug|Win32
+		{49D208DB-2BA8-46DA-8915-A36939D01DC5}.Release|Win32.ActiveCfg = Release|Win32
+		{49D208DB-2BA8-46DA-8915-A36939D01DC5}.Release|Win32.Build.0 = Release|Win32
+		{6187FAF2-E849-49AE-BF9F-E3CADDE2611B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6187FAF2-E849-49AE-BF9F-E3CADDE2611B}.Debug|Win32.Build.0 = Debug|Win32
+		{6187FAF2-E849-49AE-BF9F-E3CADDE2611B}.Release|Win32.ActiveCfg = Release|Win32
+		{6187FAF2-E849-49AE-BF9F-E3CADDE2611B}.Release|Win32.Build.0 = Release|Win32
+		{0E5C2640-8DDD-48BC-859E-E5363A365CB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E5C2640-8DDD-48BC-859E-E5363A365CB9}.Debug|Win32.Build.0 = Debug|Win32
+		{0E5C2640-8DDD-48BC-859E-E5363A365CB9}.Release|Win32.ActiveCfg = Release|Win32
+		{0E5C2640-8DDD-48BC-859E-E5363A365CB9}.Release|Win32.Build.0 = Release|Win32
+		{895B3912-0119-4825-8165-2FF973274A80}.Debug|Win32.ActiveCfg = Debug|Win32
+		{895B3912-0119-4825-8165-2FF973274A80}.Debug|Win32.Build.0 = Debug|Win32
+		{895B3912-0119-4825-8165-2FF973274A80}.Release|Win32.ActiveCfg = Release|Win32
+		{895B3912-0119-4825-8165-2FF973274A80}.Release|Win32.Build.0 = Release|Win32
+		{8759C1DD-C02D-4315-A18A-543EFE2A8425}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8759C1DD-C02D-4315-A18A-543EFE2A8425}.Debug|Win32.Build.0 = Debug|Win32
+		{8759C1DD-C02D-4315-A18A-543EFE2A8425}.Release|Win32.ActiveCfg = Release|Win32
+		{8759C1DD-C02D-4315-A18A-543EFE2A8425}.Release|Win32.Build.0 = Release|Win32
+		{3FC68FB4-326D-499C-96DF-9F731764E251}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FC68FB4-326D-499C-96DF-9F731764E251}.Debug|Win32.Build.0 = Debug|Win32
+		{3FC68FB4-326D-499C-96DF-9F731764E251}.Release|Win32.ActiveCfg = Release|Win32
+		{3FC68FB4-326D-499C-96DF-9F731764E251}.Release|Win32.Build.0 = Release|Win32
+		{2715F8AA-C73A-4962-BC68-1CAD1DAF9FB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2715F8AA-C73A-4962-BC68-1CAD1DAF9FB9}.Debug|Win32.Build.0 = Debug|Win32
+		{2715F8AA-C73A-4962-BC68-1CAD1DAF9FB9}.Release|Win32.ActiveCfg = Release|Win32
+		{2715F8AA-C73A-4962-BC68-1CAD1DAF9FB9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49D208DB-2BA8-46DA-8915-A36939D01DC5} = {459019C0-0432-4253-B1AD-EDA2AFCDAD21}
+		{0E5C2640-8DDD-48BC-859E-E5363A365CB9} = {459019C0-0432-4253-B1AD-EDA2AFCDAD21}
+		{895B3912-0119-4825-8165-2FF973274A80} = {459019C0-0432-4253-B1AD-EDA2AFCDAD21}
+		{8759C1DD-C02D-4315-A18A-543EFE2A8425} = {459019C0-0432-4253-B1AD-EDA2AFCDAD21}
+		{3FC68FB4-326D-499C-96DF-9F731764E251} = {459019C0-0432-4253-B1AD-EDA2AFCDAD21}
+		{2715F8AA-C73A-4962-BC68-1CAD1DAF9FB9} = {459019C0-0432-4253-B1AD-EDA2AFCDAD21}
+		{6187FAF2-E849-49AE-BF9F-E3CADDE2611B} = {3E2C5AD9-FCEE-439A-BEB7-1CFBBE3B14AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		AMDCaPersistentConfig = Release|Win32
+		AMDCaPersistentStartup = OnTheFly
+		AMDCaProjectFile = C:\Users\Cristi\Documents\Code\CPP\cgengine2\CodeAnalyst\cgengine2.caw
+	EndGlobalSection
+EndGlobal
